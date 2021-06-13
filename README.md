@@ -9,6 +9,7 @@ For the correct running of the bot you will need to provide some information, he
 - Add your Outlook email and password in the text file called `emailpass` in this format: `email:pass`.
 - Add the time when you want the bot to join the reunion in the text file called `time` in this format: `HH:MM`. It's better to do it when you're sure that you received the invitation link in the email.
 - Add the hypertext that has as data the invitation link to the reunion in the text file called `invitesentence`, for example if you have in old invitation emails the following text "Click here to join the meeting" and this text leads you directly to Teams then you need to add that text. Be sure to add it without missins any characters or misspelling anything.
+- In the folder called "images" you may need to change the picture "joinNow" depending on the language used in Teams, be sure to keep the same name.
 Now that the bot has every data needed, you can run it, I can think of 3 ways of running it:
 - Run it the night before the reunion and leave your PC on but this is too much.
 - Run it minutes before the reunion and go do your usual tasks.
