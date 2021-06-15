@@ -9,6 +9,7 @@ For the correct running of the bot you will need to provide some information, he
 - Add your Outlook email and password in the text file called `emailpass` in this format: `email:pass`.
 - Add the time when you want the bot to join the reunion in the text file called `time` in this format: `HH:MM`. It's better to do it when you're sure that you received the invitation link in the email.
 - Add the hypertext that has as data the invitation link to the reunion in the text file called `invitesentence`, for example if you have in old invitation emails the following text "Click here to join the meeting" and this text leads you directly to Teams then you need to add that text. Be sure to add it without missins any characters or misspelling anything.
+- Add the duration you want the bot to stay in the reunion in the text file called `totaltime` in this format: `H`
 - In the folder called "images" you may need to change the picture "joinNow" depending on the language used in Teams, be sure to keep the same name.
 Now that the bot has every data needed, you can run it, I can think of 3 ways of running it:
 - Run it the night before the reunion and leave your PC on but this is too much.
@@ -18,4 +19,4 @@ To run the bot open the cmd as explained earlier then type the following command
 When the time matches, it will automatically open Chrome and start the actions, just be sure to do anything while the bot is checking because it can mess with what it does.
 # DISCLAIMER
 This is my first Python Project EVER, so yeah not everything is perfect.
-The boy may take some time performing some actions or may do them too fast because I used the time module so the bot doesn't do something stupid even if you have a slow Internet Connection (You may need to adjust the time manually depending on your Internet and your needs). To do so just edit the `main.py` file and change the command `time.sleep()` where it lags for you if you have a slow internet or where you want it to speed up if you have a fast one. The time in that command is in seconds so if you want the bot to wait 10 seconds instead of 3 change `time.sleep(3)` to `time.sleep(10)`.
+The bot may take some time performing some actions or may do them too fast because I used the time module so the bot doesn't do something stupid even if you have a slow Internet Connection (You may need to adjust the time manually depending on your Internet and your needs). To do so just edit the `main.py` file and change the command `time.sleep()` where it lags for you if you have a slow internet or where you want it to speed up if you have a fast one. The time in that command is in seconds so if you want the bot to wait 10 seconds instead of 3 change `time.sleep(3)` to `time.sleep(10)`.
