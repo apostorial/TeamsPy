@@ -3,7 +3,7 @@ This is a Python3 script that checks if you have an invite link for a Teams reun
 # Requirements
 Here are the things that you need to install before using this bot:
 - Install Python3 from the official website `www.python.org`, be sure to check `Add Python to PATH` while installing it.
-- Install all the requirements needed, to do that open the Command Prompt in the Bot Folder, to do that either type `cmd` in the File Explorer while you have the folder opened or open normally the Command Prompt from the search bar in Windows and type `cd (directory)`, for example if you have the bot in a folder called TeamsPy in another folder called Projects in the Desktop just type `cd Desktop/Projects/TeamsPy` then lastly run this command `pip install -r requirements` to install everything that you need.
+- Install all the requirements needed, to do that open the Command Prompt in the Bot Folder, to do that either type `cmd` in the File Explorer while you have the folder opened or open normally the Command Prompt from the search bar in Windows and type `cd (directory)`, for example if you have the bot in a folder called TeamsPy in another folder called Projects in the Desktop just type `cd Desktop/Projects/TeamsPy` then lastly run this command `pip install -r requirements.txt` to install everything that you need.
 # Data needed and how/when to run
 For the correct running of the bot you will need to provide some information, here is what you need to do:
 - Add your Outlook email and password in the text file called `emailpass` in this format: `email:pass`.
